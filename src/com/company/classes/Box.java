@@ -26,7 +26,7 @@ public class Box <T>{
                 '}';
     }
 
-    public Box<T> genericMethod() {
+    public  static <T>Box<T> genericMethod() {
         return new Box<>();
     }
 }
